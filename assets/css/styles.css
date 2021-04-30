@@ -200,3 +200,6 @@ main{
 .currency-table--container .iconTrending.up{
     background-image: url('../icons/trending-up.svg');
 }
+.main-currency-table .currency-table--title.commissions{
+    color: var(--secondary-blue);
+}
