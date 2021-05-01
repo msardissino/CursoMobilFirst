@@ -133,8 +133,15 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container{
+    /* display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity; */
+}
 .main-currency-table{
     width: 70%;
+    /* scroll-snap-align: center; */
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -146,8 +153,7 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    text-align: left;
-    padding-left: 30px;
+    text-align: center;
     color: var(--bitcoin-orange);
 }
 .currency-table--container{
@@ -457,3 +463,4 @@ footer .footer-left a{
     text-decoration: none;
     color: var(--just-white);
 }
+
